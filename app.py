@@ -22,4 +22,4 @@ api.add_resource(Items, '/items')
 api.add_resource(UserRegister, '/register')
 
 if __name__ == '__main__':
-	app.run(port=80, debug=True)
+	app.run(port=5000, debug=True)
